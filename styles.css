@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(4, 44, 45);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.technologynetworks.com/tn/images/thumbs/jpeg/640_360/from-the-cosmos-to-the-clinic-a-new-type-of-dna-is-created-315723.jpg);
+}
+
+#box {
+  position: fixed;
+  margin-top: 5rem;
+  margin-left: 35rem;
+  object-position: center;
+  border: 2px black solid;
+  width: 402px;
+  height: 600px;
+  background-color: white;
+}
+
+#board {
+  text-align: center;
+  padding-top: 3rem;
+  font-family: sans-serif;
+}
+
+.row {
+  clear: both;
+  width: 302px;
+  margin: 0 auto;
+}
+
+.row > div {
+  height: 100px;
+  width: 100px;
+  float: left;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 75px;
+}
+.top {
+  border-bottom: 1px black solid;
+}
+
+.bottom {
+  border-top: 1px black solid;
+}
+
+.left {
+  border-right: 1px black solid;
+}
+
+.right {
+  border-left: 1px black solid;
+}

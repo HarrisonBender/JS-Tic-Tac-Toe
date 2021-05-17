@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Board</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<div id= "box">
+  <body onload="beginGame();">
+ 
+    <div id="board">
+
+      <h1>Tic Tac Toe</h1>
+
+      <div class="row">
+    
+      </div>
+      <div class="row">
+       
+        <h3 id="Message"></h3>
+      </div>
+      <div id="board">
+       
+        <div class="row">
+          <div id="cell1" class="top left" onCLick="nextMove(this)"></div>
+          <div id="cell2" class="top middle" onCLick="nextMove(this)"></div>
+          <div id="cell3" class="top right" onCLick="nextMove(this)"></div>
+        </div>
+       
+        <div class="row">
+          <div id="cell4" class="center left" onCLick="nextMove(this)"></div>
+          <div id="cell5" class="center middle" onCLick="nextMove(this)"></div>
+          <div id="cell6" class="center right" onCLick="nextMove(this)"></div>
+        </div>
+       
+        <div class="row">
+          <div id="cell7" class="bottom left" onCLick="nextMove(this)"></div>
+          <div id="cell8" class="bottom middle" onCLick="nextMove(this)"></div>
+          <div id="cell9" class="bottom right" onCLick="nextMove(this)"></div>
+        </div>
+      </div>
+      <div class="row">
+       
+        <button id="refreshBtn" onClick="beginGame()">Play again?</button>
+      </div>
+    </div>
+  </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
