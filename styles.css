@@ -1,0 +1,104 @@
+#board{
+    font-family: sans-serif;
+    padding: 4rem;
+    margin: 2rem;
+}
+
+.row {
+    margin: 0 auto;
+    width: 400px;
+}
+
+h1,
+h3 {text-align: center;}
+
+
+
+#board,
+#refreshBtn {
+    margin-left: 6rem;
+}
+
+#board:hover {
+    cursor: pointer;
+} 
+
+.square {
+    float: left;
+    clear: right;
+    width: 100px;
+    height: 100px;
+    
+
+
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+
+    line-height: 100px;
+    font-size: 5rem;
+}
+
+
+.top {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+}
+
+.bottom {
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2.5px;
+}
+
+.left {
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 2.5px;
+}
+
+.right {
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 2.5px;
+}
+
+
+#square3 {
+    border-top-right-radius: 0.5rem;
+}
+
+#square9 {
+    border-bottom-right-radius: 0.5rem;
+}
+
+#square7 {
+    border-bottom-left-radius: 0.5rem;
+}
+
+#square1 {
+    border-top-left-radius: 0.5rem;
+}
+
+#refreshBtn {
+    margin-top: 1rem;
+    
+    visibility: hidden;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+
+   
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 1.50rem;
+    color: #f8F9fa;
+    background-color: rgba(52, 58, 64, 0.500);
+    border-radius: 0.50rem;
+    border: none;   
+}
